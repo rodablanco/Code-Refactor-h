@@ -206,10 +206,10 @@ p {
 }
 
 #menu-container{
-    position: absolute;
-    margin-left: 1500px;
-    width: auto;
-    height:200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     min-width: 50px;
     min-height: 75px;
     max-width: 1300px;
