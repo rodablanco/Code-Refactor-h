@@ -2,10 +2,16 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 body {
     background-color: #d9dcd6;
+    display: block;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+
 }
 
 .header {
@@ -198,4 +204,15 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+#menu-container{
+    position: absolute;
+    margin-left: 1500px;
+    width: auto;
+    height:200px;
+    min-width: 50px;
+    min-height: 75px;
+    max-width: 1300px;
+    max-height: max-content;
 }
